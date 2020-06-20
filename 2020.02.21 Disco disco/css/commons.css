@@ -1,0 +1,22 @@
+*{margin: 0; padding: 0;}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+div{
+    box-sizing: border-box
+}
+
+.centered{
+    position: absolute;
+    left: 50%; top:  50%;
+    transform: translate(-50%, -50%)
+}
+
+.paper_sheet {
+    padding: 2vh 2vw;
+    box-shadow: 0 0.5vh 1.5vh rgba(0,0,0,0.12),
+    0 0.5vh 1vh rgba(0,0,0,0.24);
+}
